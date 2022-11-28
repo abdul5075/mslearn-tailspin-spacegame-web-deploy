@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'Windows (Windows Server 2022 Datacenter Azure Edition)'
+  vmImage: 'ubuntu-20.04'
   demands:
   - npm
 
